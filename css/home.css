@@ -50,8 +50,3 @@ body {
   100% {transform: translate3d(0,100px,0);}
 }
 */
-button#btn {
-  background-color: white;
-  border-radius: 5%;
-  font-size: 20px;
-}

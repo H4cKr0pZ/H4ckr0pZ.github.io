@@ -1,6 +1,9 @@
 body {
-  background: #006680;
+/*  background: #006680;*/
+/*    background: #00ffff;*/
+      background: #007399;
 }
+
 /*
 .card {
   font-family: inherit;
@@ -21,9 +24,13 @@ body {
   font-family: monospace;
   width: 250px;
   height: 300px;
+  border-top: dashed black;
+  border-bottom: dashed black;
+  border-left: dashed black;
+  border-right: dashed black;
   border-radius: 5%;
   color: black;
-  background: #bfbfbf;
+  background: white;
   animation: nice 4s alternate ease-in infinite;
 }
 
@@ -38,8 +45,8 @@ body {
   width: 250px;
   height: 300px;
   border-radius: 5%;
-  color: black;
-  background: #adad85;
+  color: lime;
+  background: black;
 /*  animation: nice 4s alternate ease-in infinite;*/
 }
 /*
@@ -50,3 +57,11 @@ body {
   100% {transform: translate3d(0,100px,0);}
 }
 */
+button {
+  background: #006680;
+  font-size: 20px;
+  font-family: monospace;
+  border-radius: 10%;
+  color: white;
+  margin-top: 2px;
+}
